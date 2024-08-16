@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Landing</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="bg-[#0E1133] py-6">
+        <div class="container mx-auto text-white lg:px-24 p-6">
+          <div class="flex justify-between">
+            <div class="flex justify-center items-center space-x-10">
+              <div>
+                <img src="assets/logo-3.png  " alt="" />
+              </div>
+              <div class="space-x-4 text-lg font-semibold hidden lg:flex">
+                <a class="hover:text-orange-600 duration-300" href="">Home</a>
+                <a class="hover:text-orange-600 duration-300" href="">About</a>
+                <a class="hover:text-orange-600 duration-300" href=""
+                  >Service</a
+                >
+                <a class="hover:text-orange-600 duration-300" href="">Blog</a>
+                <a class="hover:text-orange-600 duration-300" href=""
+                  >Contact</a
+                >
+              </div>
+            </div>
+            <div class="space-x-5 hidden lg:flex">
+              <button class="text-lg font-semibold">Login</button>
+              <button
+                class="bg-orange-700 border-0 rounded-lg text-white px-3 py-3 text-lg font-semibold hover:bg-transparent border-2 border-orange-700 duration-300"
+              >
+                Get started
+              </button>
+            </div>
+            <div class="lg:hidden">
+              <img class="w-8 h-8" src="assets/more.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="bg-[#12174E] pt-24 flex flex-col justify-center text-white">
+        <div class="container px-4 lg:px-24 mx-auto">
+          <div class="mx-auto text-white text-center space-y-6">
+            <h1 class="tet-4xl lg:text-7xl font-bold">
+              Creative way to <br />
+              showcase your <span class="text-orange-600">app</span>
+            </h1>
+            <p class="opacity-70 text-xl">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+              velit ipsa cumque sapiente mollitia quibusdam?
+            </p>
+            <div class="space-x-4 flex justify-center">
+              <button
+                class="bg-orange-700 border-0 rounded-lg text-white px-3 py-3 text-lg font-semibold hover:bg-transparent border-2 border-orange-700 duration-300"
+              >
+                Get started
+              </button>
+              <button class="flex">
+                <img class="mr-4" src="assets/play-button.png" alt="" />
+                Play Video
+              </button>
+            </div>
+          </div>
+
+          <div class="translate-y-24 flex justify-center lg:translate-y-56">
+            <img src="assets/hero-thumb-4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto">
+      <section class="my-64">
+        <div class="">
+          <div class="space-y-7 text-center mt-14">
+            <h1 class="text-5xl font-bold">What you can do</h1>
+            <p class=""> 
+              Lorem ipsum, dolor sit amet consectetur adipisicing<br />
+              elit. Sequi quam vel porro maiores.ea officiis sed? Tempore expedita, at qui <br />
+              incidunt sapiente neque ex quidem
+            </p>
+          </div>
+          <div class="mt-48 grid grid-cols-1 lg:grid-cols-4"> 
+            <!-- first card -->
+            <div class="card">
+              <figure>
+                <img
+                  class="bg-green-500 rounded-full p-6"
+                  src="assets/play-store.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body flex flex-col justify-center items-center">
+                <h2 class="card-title">What you can do</h2>
+                <p class="pl-6">If a dog chews shoes whose shoes does he choose?</p>
+                <div class="">
+                  <button class="btn">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- second card -->
+            <div class="card">
+              <figure>
+                <img
+                  class="bg-yellow-500 rounded-full p-6"
+                  src="assets/play-store.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body flex flex-col justify-center items-center">
+                <h2 class="card-title">What you can do</h2>
+                <p class="pl-6">If a dog chews shoes whose shoes does he choose?</p>
+                <div class="">
+                  <button class="btn">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- third card -->
+            <div class="card">
+              <figure>
+                <img
+                  class="bg-blue-500 rounded-full p-6"
+                  src="assets/play-store.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body flex flex-col justify-center items-center">
+                <h2 class="card-title">What you can do</h2>
+                <p class="pl-6">If a dog chews shoes whose shoes does he choose?</p>
+                <div class="">
+                  <button class="btn">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- fourth card -->
+            <div class="card">
+              <figure>
+                <img
+                  class="bg-red-500 rounded-full p-6"
+                  src="assets/play-store.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body flex flex-col justify-center items-center">
+                <h2 class="card-title">What you can do</h2>
+                <p class="pl-6">If a dog chews shoes whose shoes does he choose?</p>
+                <div class="">
+                  <button class="btn">Read more</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
